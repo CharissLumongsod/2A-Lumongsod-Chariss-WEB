@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CodeNinja</title>
+    <link href="css/codeNinja.css" rel="stylesheet"/>  
+    <link href="css/login.css" rel="stylesheet"/>
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div id="login" class="container"> 
+        <article>
+            <nav>
+                <ul>
+                    <a href="developers.html">DEVELOPERS</a>
+                    <a href="#login">LOGIN</a>
+                    <a href="plans.html">PLANS</a>
+                    <a href="home.html" id="left">HOME</a>
+                </ul>
+            </nav>
+            <div class="formContent">
+                <img src="img/logo.jpg" class="logoImg">
+                <h2>Login Form</h2>
+                <form id="login-form">
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required>
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required>
+                    <input type="submit" name="submit" value="Login">
+                    <div class="remember">
+                        <div class="login">
+                            <div class="Oroption">OR</div>
+                        </div>
+                        <div class="links">
+                            <div class="facebook"><img src="img/facebook.png" alt="Facebook Icon" /></div>
+                            <div class="google"><img src="img/google.png" alt="Facebook Icon" /></div>
+                        </div>
+                        <div class="signup"> Don't have an account? <a href="#">Signup Now</a> </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <p>CodeNinja © <span><script>document.write(/\d{4}/.exec(Date())[0])</script> | Design: <a rel="nofollow" target="_parent" href="developers.html">UmpadGroup</a>
+                </span></p>
+            </div>
+        </article>
+    </div>
+</body>
+</html>

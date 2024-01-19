@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CodeNinja</title>
+    <link href="css/codeNinja.css" rel="stylesheet"/>
+    <script src="js/contacts.js"></script>
+    <!-- Add the external script file -->
+    <script src="contacts.js"></script>
+</head>
+<body>
+    <div id="contacts" class="container">
+        <article>
+            <nav>
+                <ul>
+                    <a href="developers.html">DEVELOPERS</a>
+                    <a href="login.html">LOGIN</a>
+                    <a href="plans.html">PLANS</a>
+                    <a href="home.html" id="left">HOME</a>
+                </ul>
+            </nav>
+            <div class="media-body">
+                <h1 class="fade-in"><img class="logo" src="img/logo.jpg" alt="logo"></img>CodeNinja</h1>
+                <h4>from novice to ninja</h4>
+            </div>
+            <div id="content" class="fade-in-2">
+                <ul type="none">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-left"></div>
+                <main class="col-right contact-main">
+                    <section class="content contact">
+                        <h2 class="content-title">Contact CodeNinja</h2>
+                        <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you! Here are the ways you can reach out to the CodeNinja team:</p>
+                        <hr>
+                        <h3>Email:</h3>
+                        <ul>
+                            <li>General Inquiries: <a href="mailto:info@codeninja.com">info@codeninja.com</a></li>
+                            <li>Support: <a href="mailto:support@codeninja.com">support@codeninja.com</a></li>
+                        </ul>
+
+                        <h3>Social Media:</h3>
+                        <p>Connect with us on your favorite platforms</p>
+                        <ul>
+                            <li>Twitter: <a href="https://twitter.com/CodeNinja" target="_blank">CodeNinja Twitter</a></li>
+                            <li>Facebook: <a href="https://facebook.com/CodeNinja" target="_blank">CodeNinja Facebook</a></li>
+                            <li>Instagram: <a href="https://instagram.com/CodeNinja" target="_blank">CodeNinja Instagram</a></li>
+                        </ul>
+                        <br>
+                        <p>We're here to assist you on your coding journey. Reach out, and let's code the future together!</p>
+                        <form id="commentForm">
+                            <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                            <input type="button" value="SUBMIT" onclick="submitForm()"/>
+                        </form>
+
+                    </section>
+                </main>
+            </div>
+            <div class="footer">
+                <p>CodeNinja © <span><script>document.write(/\d{4}/.exec(Date())[0])</script> | Design: <a rel="nofollow" target="_parent" href="developers.html">UmpadGroup</a>
+                </span></p>
+            </div>
+        </div>
+        </article>
+    </div>
+</body>
+</html>
